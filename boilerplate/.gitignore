@@ -17,7 +17,6 @@
 
 # misc
 .DS_Store
-*.pem
 
 # debug
 npm-debug.log*
@@ -34,5 +33,5 @@ yarn-error.log*
 public/sw.js
 public/workbox-*.js
 
-# vercel
-.vercel
+# storybook
+storybook-static
