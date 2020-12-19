@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_pricing_boxes",
+  "info": {
+    "name": "pricingBox",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "totalPrice": {
+      "type": "integer"
+    },
+    "numberInstallments": {
+      "type": "integer",
+      "required": true
+    },
+    "priceInstallments": {
+      "type": "integer",
+      "required": true
+    },
+    "benefits": {
+      "type": "richtext"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button"
+    }
+  }
+}

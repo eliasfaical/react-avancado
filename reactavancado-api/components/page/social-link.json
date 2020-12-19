@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_social_links",
+  "info": {
+    "name": "socialLink",
+    "icon": "medal",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "enumeration",
+      "enum": [
+        "Github",
+        "Twitter",
+        "Facebook",
+        "LinkedIn",
+        "Instagram"
+      ],
+      "default": "Github",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
