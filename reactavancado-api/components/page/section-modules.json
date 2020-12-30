@@ -2,7 +2,8 @@
   "collectionName": "components_page_section_modules",
   "info": {
     "name": "sectionModules",
-    "icon": "archive"
+    "icon": "archive",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -12,7 +13,7 @@
     },
     "modules": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "page.modules",
       "required": true
     }
